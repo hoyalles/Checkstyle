@@ -57,7 +57,7 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 > ℹ️ **Importante:** Este repositório não acompanha a pasta `src/`, pois não contém arquivos de exemplo.  
 > Para utilizar este projeto no seu ambiente local, siga os passos abaixo:
 
-#### 📁 Como preparar o projeto para análise:
+####  Como preparar o projeto para análise:
 
 1. Crie uma pasta chamada `src` na raiz do repositório:
    ```bash
