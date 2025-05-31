@@ -1,7 +1,7 @@
 /**
  * Classe de teste simples.
  */
-public class Valid {
+public class Main {
 
   /**
    * Método principal que imprime uma mensagem.
