@@ -49,10 +49,8 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 ---
 
-###  ### ▶️ Execução (exemplo básico)
+### Execução (exemplo básico)
 
-```bash
-java -jar checkstyle.jar -c /google_checks.xml src/
 ```
 
 - `-c`: Caminho para o arquivo de configuração (ex: `google_checks.xml`)
@@ -79,8 +77,6 @@ java -jar checkstyle.jar -c /google_checks.xml src/
    ```bash
    java -jar checkstyle.jar -c /google_checks.xml src/
    ```
-
-Se preferir usar outro nome de pasta, basta substituir `src/` pelo caminho desejado.
 
 ---
 
