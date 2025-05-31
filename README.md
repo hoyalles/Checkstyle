@@ -2,7 +2,6 @@
 
 ## 📌 Identificação
 
-- **Nome da ferramenta:** CheckStyle  
 - **Site oficial:** [https://checkstyle.sourceforge.io](https://checkstyle.sourceforge.io)  
 - **Repositório oficial:** [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
 
