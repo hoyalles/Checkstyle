@@ -1,21 +1,21 @@
-# 🧪 CheckStyle - Ferramenta de Qualidade de Código Java
+#  CheckStyle - Ferramenta de Qualidade de Código Java
 
-## 📌 Identificação
+##  Identificação
 
 - **Site oficial:** [https://checkstyle.sourceforge.io](https://checkstyle.sourceforge.io)  
 - **Repositório oficial:** [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
 
 ---
 
-## 🎯 Objetivo da Ferramenta
+##  Objetivo da Ferramenta
 
 O **CheckStyle** é uma ferramenta de análise estática para código Java. Ela verifica automaticamente se o código segue padrões de estilo e boas práticas, ajudando a manter a **qualidade**, **padronização** e **legibilidade** do projeto.
 
 ---
 
-## ⚙️ Instalação e Configuração
+##  Instalação e Configuração
 
-### ✅ Requisitos mínimos
+###  Requisitos mínimos
 
 - **Linguagem:** Java (Java 8 ou superior)
 - **Sistemas compatíveis:** Windows, Linux (Ubuntu), macOS  
@@ -23,7 +23,7 @@ O **CheckStyle** é uma ferramenta de análise estática para código Java. Ela 
 
 ---
 
-### 💻 Instalação no Ubuntu
+###  Instalação no Ubuntu
 
 ```bash
 sudo apt update
@@ -33,7 +33,7 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 ---
 
-### 💻 Instalação no Windows
+###  Instalação no Windows
 
 1. Verifique se o Java está instalado:
    ```cmd
@@ -48,7 +48,7 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 ---
 
-### ▶️ Execução (exemplo básico)
+###  Execução (exemplo básico)
 
 ```bash
 java -jar checkstyle.jar -c /google_checks.xml src/
@@ -59,7 +59,7 @@ java -jar checkstyle.jar -c /google_checks.xml src/
 
 ---
 
-## 📚 Referências
+##  Referências
 
 - [Documentação oficial](https://checkstyle.sourceforge.io/)
 - [Guia de configuração](https://checkstyle.sourceforge.io/config.html)
