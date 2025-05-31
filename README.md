@@ -51,8 +51,6 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 ### Execução (exemplo básico)
 
-```
-
 - `-c`: Caminho para o arquivo de configuração (ex: `google_checks.xml`)
 - `src/`: Pasta contendo os arquivos `.java` a serem analisados
 
