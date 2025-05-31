@@ -70,7 +70,7 @@ java -jar checkstyle.jar -c /google_checks.xml src/
 ---
 
 ## 📜 Licença  
-Este projeto está licenciado sob a [MIT License]().  
+Este projeto está licenciado sob a [MIT License](LICENSE).  
 
 ---
 
