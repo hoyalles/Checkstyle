@@ -1,6 +1,6 @@
 #  CheckStyle - Ferramenta de Qualidade de Código Java
 
-##  Objetivo da Ferramenta
+##  Sobre o Projeto
 
 Este projeto foi desenvolvido para a disciplina de **Qualidade de Software** na **UFC - Campus Itapajé**, ministrada pelo professor **Anderson Goncalves Uchoa**.  
 O **CheckStyle** é uma ferramenta de análise estática para código Java. Ela verifica automaticamente se o código segue padrões de estilo e boas práticas, ajudando a manter a **qualidade**, **padronização** e **legibilidade** do projeto.
