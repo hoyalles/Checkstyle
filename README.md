@@ -66,3 +66,16 @@ java -jar checkstyle.jar -c /google_checks.xml src/
 - [Guia de configuração](https://checkstyle.sourceforge.io/config.html)
 - [Estilo Google para CheckStyle](https://checkstyle.sourceforge.io/google_style.html)
 - [Releases (downloads)](https://github.com/checkstyle/checkstyle/releases)
+
+---
+
+## 📜 Licença  
+Este projeto está licenciado sob a [MIT License](LICENSE).  
+
+---
+
+## 🎓 **Agradecimentos**
+###
+- **Anderson Goncalves Uchoa**: Orientador do projeto e professor da disciplina de Quaalidade de Software na UFC Itapajé
+###
+- **Equipe do Projeto:** Carlos Kaique Rosa Silva ([Kaique Silva](https://github.com/hoyalles)) e Paulo Matheus Cardoso Viana ([Paulo Cardoso](https://github.com/Paulim18))
