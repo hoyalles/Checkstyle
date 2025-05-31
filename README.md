@@ -1,65 +1,68 @@
-# CheckStyle Demo
+# 🧪 CheckStyle - Ferramenta de Qualidade de Código Java
 
-Este é um projeto de exemplo para demonstrar o uso da ferramenta **CheckStyle**, que realiza análise estática de código em projetos Java.
+## 📌 Identificação
 
-## 🔧 Identificação da Ferramenta
-
-- **Nome:** CheckStyle
-- **Site Oficial:** [https://checkstyle.sourceforge.io/](https://checkstyle.sourceforge.io/)
-- **Repositório GitHub:** [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
-
-## ⚙️ Instalação e Configuração
-
-### Requisitos
-
-- Java 8 ou superior
-- Terminal/shell
-- Git
-
-### Passo a Passo
-
-```bash
-# Baixar o checkstyle.jar
-wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar -O checkstyle.jar
-
-# Baixar a configuração de estilo do Google
-wget https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
-
-# Executar a ferramenta
-java -jar checkstyle.jar -c google_checks.xml src/
-```
-
-## 🔁 Integração com GitHub Actions
-
-A ferramenta está integrada ao GitHub Actions através do arquivo `.github/workflows/checkstyle.yml`.
-
-## 🧪 Demonstração Prática
-
-### Código de exemplo:
-
-```java
-public class App {
-    public static void main(String[] args) {
-        String nome = "CheckStyle";
-        System.out.println("Exemplo de projeto Java usando " + nome);
-    }
-}
-```
-
-### Execução e Resultados
-
-Ao executar o CheckStyle, será gerado um relatório indicando os problemas de estilo no código conforme as regras do `google_checks.xml`.
-
-## 💬 Reflexão Crítica
-
-- **Pontos Fortes:** Fácil de configurar, integração com CI, compatível com estilos conhecidos.
-- **Limitações:** Focado apenas em estilo; não detecta bugs ou vulnerabilidades.
-- **Comparações:** Similar ao PMD, mas com foco mais específico em convenções de codificação.
-
-## 📊 Exportação de Resultados
-
-Os resultados podem ser exportados para o terminal e interpretados com base nos arquivos e linhas reportadas.
+- **Nome da ferramenta:** CheckStyle  
+- **Site oficial:** [https://checkstyle.sourceforge.io](https://checkstyle.sourceforge.io)  
+- **Repositório oficial:** [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
 
 ---
 
-Este projeto serve como base para estudo e demonstração de boas práticas de análise estática com CheckStyle.
+## 🎯 Objetivo da Ferramenta
+
+O **CheckStyle** é uma ferramenta de análise estática para código Java. Ela verifica automaticamente se o código segue padrões de estilo e boas práticas, ajudando a manter a **qualidade**, **padronização** e **legibilidade** do projeto.
+
+---
+
+## ⚙️ Instalação e Configuração
+
+### ✅ Requisitos mínimos
+
+- **Linguagem:** Java (Java 8 ou superior)
+- **Sistemas compatíveis:** Windows, Linux (Ubuntu), macOS  
+- **Dependência:** Java Runtime Environment (JRE)
+
+---
+
+### 💻 Instalação no Ubuntu
+
+```bash
+sudo apt update
+sudo apt install default-jre -y
+wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15.0/checkstyle-10.15.0-all.jar -O checkstyle.jar
+```
+
+---
+
+### 💻 Instalação no Windows
+
+1. Verifique se o Java está instalado:
+   ```cmd
+   java -version
+   ```
+   Se não estiver, baixe em: [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+
+2. Baixe o JAR do CheckStyle pelo repositório oficial:  
+   [https://github.com/checkstyle/checkstyle/releases](https://github.com/checkstyle/checkstyle/releases)
+
+3. Salve o arquivo `checkstyle.jar` em uma pasta acessível.
+
+---
+
+### ▶️ Execução (exemplo básico)
+
+```bash
+java -jar checkstyle.jar -c /google_checks.xml src/
+```
+
+- `-c`: Caminho para o arquivo de configuração (ex: `google_checks.xml`)
+- `src/`: Pasta com os arquivos Java a serem analisados
+
+---
+
+## 📚 Referências
+
+- [Documentação oficial](https://checkstyle.sourceforge.io/)
+- [Guia de configuração](https://checkstyle.sourceforge.io/config.html)
+- [Estilo Google para CheckStyle](https://checkstyle.sourceforge.io/google_style.html)
+- [Releases (downloads)](https://github.com/checkstyle/checkstyle/releases)
