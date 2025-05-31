@@ -49,14 +49,38 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 ---
 
-###  Execução (exemplo básico)
+###  ### ▶️ Execução (exemplo básico)
 
 ```bash
 java -jar checkstyle.jar -c /google_checks.xml src/
 ```
 
 - `-c`: Caminho para o arquivo de configuração (ex: `google_checks.xml`)
-- `src/`: Pasta com os arquivos Java a serem analisados
+- `src/`: Pasta contendo os arquivos `.java` a serem analisados
+
+> ℹ️ **Importante:** Este repositório não acompanha a pasta `src/`, pois não contém arquivos de exemplo.  
+> Para utilizar este projeto no seu ambiente local, siga os passos abaixo:
+
+#### 📁 Como preparar o projeto para análise:
+
+1. Crie uma pasta chamada `src` na raiz do repositório:
+   ```bash
+   mkdir src
+   ```
+
+2. Coloque dentro dessa pasta os arquivos Java que você deseja analisar com o CheckStyle:
+   ```
+   src/
+   ├── MeuCodigo1.java
+   └── OutroArquivo.java
+   ```
+
+3. Execute o CheckStyle conforme mostrado:
+   ```bash
+   java -jar checkstyle.jar -c /google_checks.xml src/
+   ```
+
+Se preferir usar outro nome de pasta, basta substituir `src/` pelo caminho desejado.
 
 ---
 
