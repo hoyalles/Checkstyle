@@ -76,6 +76,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 🎓 **Agradecimentos**
 ###
-- **Anderson Goncalves Uchoa**: Orientador do projeto e professor da disciplina de Quaalidade de Software na UFC Itapajé
+- **Anderson Goncalves Uchoa**: Orientador do projeto e professor da disciplina de Qualidade de Software na UFC Itapajé
 ###
 - **Equipe do Projeto:** Carlos Kaique Rosa Silva ([Kaique Silva](https://github.com/hoyalles)) e Paulo Matheus Cardoso Viana ([Paulo Cardoso](https://github.com/Paulim18))
