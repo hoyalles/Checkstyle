@@ -47,7 +47,7 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 3. Salve o arquivo `checkstyle.jar` em uma pasta acessível.
 
-4. # Baixe o arquivo de configuração(ex: google_checks.xml): [https://checkstyle.sourceforge.io/google_style.html](https://checkstyle.sourceforge.io/google_style.html)
+4. Baixe o arquivo de configuração(ex: google_checks.xml): [https://checkstyle.sourceforge.io/google_style.html](https://checkstyle.sourceforge.io/google_style.html)
 
 
 ---
