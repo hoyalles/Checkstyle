@@ -90,12 +90,12 @@ wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.15
 
 ---
 
-## 📜 Licença  
+##  Licença  
 Este projeto está licenciado sob a [MIT License](LICENSE).  
 
 ---
 
-## 🎓 **Agradecimentos**
+##  **Agradecimentos**
 ###
 - **Anderson Goncalves Uchoa**: Orientador do projeto e professor da disciplina de Qualidade de Software na UFC Itapajé
 ###
